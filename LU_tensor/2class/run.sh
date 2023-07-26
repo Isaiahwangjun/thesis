@@ -1,0 +1,4 @@
+python ./main.py CNN 0.001 100 1 128
+python ./main.py LSTM 0.001 100 1 128
+python ./main.py AT 0.001 100 1 128
+python ./main.py EN 0.001 100 1 128

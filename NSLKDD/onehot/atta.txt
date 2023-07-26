@@ -1,0 +1,40 @@
+train_data               test_data          ()表示21有的              DoS(train)                 DoS(test)
+0.back                   0.apache2(737)                              0.6.9.14.18.20.            1.8.14.19.27.31.0.32.21.10
+1.buffer_overflow        1.back                 
+2.ftp_write              2.buffer_overflow     
+3.guess_passwd           3.ftp_write            
+4.imap                   4.guess_passwd                              Probe(train)               Probe(test)
+5.ipsweep                5.httptunnel(133)                           17.5.10.15.                25.7.15.20.11.24.
+6.land                   6.imap                 
+7.loadmodule             7.ipsweep              
+8.multihop               8.land               
+9.neptune                9.loadmodule                                R2L(train)                 R2L(test)
+10.nmap                  10.mailbomb(293)                            2.3.4.13.8.21.22.19.       4.3.6.18.12.33.35.36.29.28.26.13.34
+11.normal                11.mscan              
+12.perl                  12.multihop            
+13.phf                   13.named(17)            
+14.pod                   14.neptune                                  U2R(train)                 U2R(test)
+15.portsweep             15.nmap                                     1.7.16.12.                 2.9.23.17.30.37.22.5
+16.rootkit               16.normal              
+17.satan                 17.perl                
+18.smurf                 18.phf                
+19.spy(2)       *        19.pod                 
+20.teardrop              20.portsweep           
+21.warezmaster           21.processtable(685)   
+22.warezclient(890) *    22.ps(15)             
+()表訓練集才有             23.rootkit            
+                         24.saint(319)           test_21(309)     
+                         25.satan               
+                         26.sendmail(14)       
+                         27.smurf               
+                         28.snmpgetattack(178)  
+                         29.snmpguess(331)      
+                         30.sqlattack(2)        
+                         31.teardrop            
+                         32.udpstorm(2)        
+                         33.warezmaster         
+                         34.worm(2)             
+                         35.xlock(9)          
+                         36.xsnoop(4)           
+                         37.xterm(13)
+
