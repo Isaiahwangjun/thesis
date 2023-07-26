@@ -1,5 +1,5 @@
 環境需求如 requirements.txt，可用 pip install -r requirements.txt 一鍵安裝
-執行程式前先開啟環境 source 路徑/requirements.txt
+執行程式前先開啟環境 source 路徑/bin/activation
 
 執行每個程式 python3 路徑/main.py 參數1 參數2 參數3
 參數數量不一定，請看程式碼本身，資料擴增方法的參數為固定
